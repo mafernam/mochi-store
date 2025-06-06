@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mochi Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff7f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff80ab;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffb6c1;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4a0033;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+    }
+    .producto {
+      display: inline-block;
+      width: 200px;
+      margin: 10px;
+      padding: 10px;
+      background-color: #ffe4ec;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .rifa, .contacto {
+      background-color: #ffccdc;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    form {
+      margin-top: 15px;
+    }
+    input, textarea {
+      padding: 10px;
+      margin: 10px 0;
+      width: 80%;
+      border: none;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #ff80ab;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff4d94;
+    }
+    footer {
+      background-color: #ff80ab;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎀 Mochi Store 🎀</h1>
+    <p>Accesorios, ropa y más con estilo kawaii</p>
+  </header>
+
+  <nav>
+    <a href="#accesorios">Accesorios</a>
+    <a href="#ropa">Ropa</a>
+    <a href="#otros">Otros productos</a>
+    <a href="#rifa">Rifa</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="accesorios">
+    <h2>✨ Accesorios ✨</h2>
+    <div class="producto">
+      <img src="https://i.imgur.com/U4pA1Aj.gif" alt="Aretes kawaii">
+      <p>Aretes kawaii - $50</p>
+    </div>
+    <div class="producto">
+      <img src="https://i.imgur.com/1TWh05J.gif" alt="Pulsera rosa">
+      <p>Pulsera rosa - $35</p>
+    </div>
+  </section>
+
+  <section id="ropa">
+    <h2>👗 Ropa 👚</h2>
+    <div class="producto">
+      <img src="https://i.imgur.com/GzS1P8j.gif" alt="Blusa pastel">
+      <p>Blusa pastel - $120</p>
+    </div>
+    <div class="producto">
+      <img src="https://i.imgur.com/vOfsYRo.gif" alt="Sudadera conejo">
+      <p>Sudadera conejo - $180</p>
+    </div>
+  </section>
+
+  <section id="otros">
+    <h2>🎁 Otros productos 🎁</h2>
+    <div class="producto">
+      <img src="https://i.imgur.com/j3x3NE7.gif" alt="Libreta kawaii">
+      <p>Libreta kawaii - $45</p>
+    </div>
+    <div class="producto">
+      <img src="https://i.imgur.com/f3xMkTY.gif" alt="Estuche escolar">
+      <p>Estuche escolar - $60</p>
+    </div>
+  </section>
+
+  <section class="rifa" id="rifa">
+    <h2>🎉 ¡Participa en nuestra Rifa Especial! 🎉</h2>
+    <p>Compra cualquier producto y recibe un boleto para participar en la rifa de una canasta sorpresa 🎁</p>
+    <p>Fecha del sorteo: 15 de junio</p>
+    <form>
+      <h3>🎟️ Registro a la Rifa</h3>
+      <input type="text" placeholder="Tu nombre" required><br>
+      <input type="email" placeholder="Tu correo" required><br>
+      <button type="submit">Registrarme</button>
+    </form>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <h2>📬 Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required><br>
+      <input type="email" placeholder="Tu correo electrónico" required><br>
+      <textarea rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea><br>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>🌸 Mochi Store - Todos los derechos reservados © 2025 🌸</p>
+  </footer>
+</body>
+</html>
